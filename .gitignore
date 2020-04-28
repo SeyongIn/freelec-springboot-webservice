@@ -1,0 +1,7 @@
+# Project exclude paths
+/.gradle/
+/.idea/
+/build/
+/src/test/java/
+application-oauth.properties
+application-real-db.properties
