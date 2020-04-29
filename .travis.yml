@@ -42,7 +42,7 @@ deploy:
     secret_access_key: $AWS_SECRET_KEY                        # Travis repo settings에 설정된 값
 
     bucket: insd1128-freelec-springboot-build                 # S3 버킷명
-    key: freelect-springboot-webservice.zip                   # 빌드 파일을 압축해서 전달
+    key: freelec-springboot-webservice.zip                    # 빌드 파일을 압축해서 전달
     bundle_type: zip
     application: freelect-springboot-webservice               # 웹 콘솔에서 등록한 CodeDeploy 애플리케이션
     deployment_group: freelec-springboot-webservice-group     # 웹 콘솔에서 등록한 CodeDeploy 배포 그룹
