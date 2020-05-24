@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class ReactController {
     @GetMapping("/react")
     public String postsSave() {
-        return "react";
+        return "react.html";
     }
 }
